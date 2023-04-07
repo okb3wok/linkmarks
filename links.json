@@ -1,0 +1,10 @@
+{ "Youtube":[{"url": "https://www.youtube.com/watch?v=V6Hq_EX2LLM","title":"Let’s build ChatGPT Messenger"},
+  {"url": "https://www.youtube.com/watch?v=SUDNfS_0X-Q","title":"питон"},
+  {"url": "https://www.youtube.com/watch?v=Cc2n4EOUzW4","title":"передать пропс реакт"}
+],
+  "СМС рассылки":[{"url": "https://smsaero.ru/solutions/","title":"https://smsaero.ru/solutions/"},
+    {"url": "https://api.docs.direct.i-dgtl.ru/","title":"https://api.docs.direct.i-dgtl.ru/"},
+    {"url": "https://sms.ru/price","title":"https://sms.ru/price"},
+    {"url": "https://cp.redsms.ru","title":"https://cp.redsms.ru"}
+  ]
+}
