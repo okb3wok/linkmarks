@@ -78,3 +78,17 @@ h1 {text-align: center;}
 .linkmarks__block-links li:hover {
     background-color: #e3f1ff;
 }
+
+.linkmarks__addNew {
+    box-shadow: 0px 0px 5px #d2d6d9;
+    border-radius: 7px;
+    margin-bottom: var(--margin-gap-block);
+    padding: 10px ;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.linkmarks__block {cursor: grab;}
