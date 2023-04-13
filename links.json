@@ -1,15 +1,1 @@
-{ "Youtube":[{"url": "https://www.youtube.com/watch?v=V6Hq_EX2LLM","title":"Let’s build ChatGPT Messenger"},
-  {"url": "https://www.youtube.com/watch?v=SUDNfS_0X-Q","title":"питон"},
-  {"url": "https://www.youtube.com/watch?v=Cc2n4EOUzW4","title":"передать пропс реакт"}
-],
-  "СМС рассылки":[{"url": "https://smsaero.ru/solutions/","title":"https://smsaero.ru/solutions/"},
-    {"url": "https://api.docs.direct.i-dgtl.ru/","title":"https://api.docs.direct.i-dgtl.ru/"},
-    {"url": "https://sms.ru/price","title":"https://sms.ru/price"},
-    {"url": "https://cp.redsms.ru","title":"https://cp.redsms.ru"}
-  ],
-  "Автобусы":[{"url": "https://ros-bilet.ru/perevozchik/ip-legenkiy-me","title":"https://ros-bilet.ru/perevozchik/ip-legenkiy-me"},
-    {"url": "https://bus.tutu.ru/","title":"https://bus.tutu.ru/"},
-    {"url": "https://bus.tutu.ru/raspisanie/gorod_Kursk/gorod_Belgorod/?date=13.04.2023&amount=1&from=1416451&to=1414841","title":"https://bus.tutu.ru/raspisanie/gorod_Kursk/gorod_Belgorod/?date=13.04.2023&amount=1&from=1416451&to=1414841"},
-    {"url": "https://busfor.ru/","title":"https://busfor.ru/"}
-  ]
-}
+{"Youtube":[{"url":"https://www.youtube.com/watch?v=V6Hq_EX2LLM","title":"Let’s build ChatGPT Messenger"},{"url":"https://www.youtube.com/watch?v=SUDNfS_0X-Q","title":"питон"},{"url":"https://www.youtube.com/watch?v=Cc2n4EOUzW4","title":"передать пропс реакт"}],"СМС рассылки":[{"url":"https://smsaero.ru/solutions/","title":"https://smsaero.ru/solutions/"},{"url":"https://api.docs.direct.i-dgtl.ru/","title":"https://api.docs.direct.i-dgtl.ru/"},{"url":"https://sms.ru/price","title":"https://sms.ru/price"},{"url":"https://cp.redsms.ru","title":"https://cp.redsms.ru"}],"Автобусы":[{"url":"https://ros-bilet.ru/perevozchik/ip-legenkiy-me","title":"https://ros-bilet.ru/perevozchik/ip-legenkiy-me"},{"url":"https://bus.tutu.ru/","title":"https://bus.tutu.ru/"},{"url":"https://bus.tutu.ru/raspisanie/gorod_Kursk/gorod_Belgorod/?date=13.04.2023&amount=1&from=1416451&to=1414841","title":"https://bus.tutu.ru/raspisanie/gorod_Kursk/gorod_Belgorod/?date=13.04.2023&amount=1&from=1416451&to=1414841"},{"url":"https://busfor.ru/","title":"https://busfor.ru/"}],"Кухни":[]}
