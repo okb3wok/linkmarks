@@ -96,7 +96,7 @@ const mainFunc = () => {
 
 
 
-    const url = 'https://hosteria.ru/linkmarks/api.php';
+    const url = 'https://hosteria.ru/linkmarks/api2.php';
     sendPostToServ(url,request).then(result => {
 
       console.log(result);
@@ -142,7 +142,7 @@ const mainFunc = () => {
     }
 
 
-    const url = 'https://hosteria.ru/linkmarks/api.php';
+    const url = 'https://hosteria.ru/linkmarks/api2.php';
     sendPostToServ(url,request).then(result => {
 
       console.log(result);
@@ -196,7 +196,7 @@ const mainFunc = () => {
       }
 
 
-      const url = 'https://hosteria.ru/linkmarks/api.php';
+      const url = 'https://hosteria.ru/linkmarks/api2.php';
       sendPostToServ(url,request).then(result => {
 
         console.log(result);
@@ -232,7 +232,7 @@ request = {
 }
 
 
-const url = 'https://hosteria.ru/linkmarks/api.php';
+const url = 'https://hosteria.ru/linkmarks/api2.php';
 
 sendPostToServ(url,request).then((result)=>{
 
