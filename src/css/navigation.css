@@ -1,0 +1,44 @@
+.linkmarks__nav{
+
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+     position: relative;
+
+}
+
+.linkmarks__nav>ul {
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: row;
+    font-size: calc(var(--font-size)*1.5);
+
+}
+
+.linkmarks__nav>ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: var(--gray-color);
+}
+
+.linkmarks__nav a.active{
+    font-weight: bold;
+    color: var(--tertiary-color);
+
+}
+
+.linkmarks__nav li {
+  white-space: nowrap;
+}
+
+
+
+@media (max-width: 640px) {
+
+  .linkmarks__nav{
+    margin-top: 30px;
+    overflow-x: scroll;
+  }
+
+
+}

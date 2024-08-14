@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+{% include "./head.twig" %}
+<body class="body" >
+{% include "./header.twig" %}
+<div class="content">
+  <main class="main">
+    {% block content %}
+    {% endblock %}
+  </main>
+</div><!--/content-->
+{% include "./footer.twig" %}
+{% include "./modal.twig" %}
+<script defer src="/linkmarks/src/js/index.js" type="module"></script></body>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<header>
+  <div class="wrapper">
+
+
+    <h1 class="linkmarks__header"><a href="https://hosteria.ru/linkmarks/" >
+        <svg width="40" height="41" viewBox="0 0 472 473" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M287.941 78.2405L328.624 104.624C337.428 110.334 340.676 122.528 335.879 131.861L176.976 441.02C172.179 450.353 161.153 453.29 152.349 447.58L29.5401 367.935C20.7361 362.225 17.4877 350.031 22.2846 340.698L181.188 31.5396C185.984 22.2067 197.01 19.2696 205.814 24.9793L244.37 49.9834L253.969 31.3061L215.414 6.30196C196.879 -5.71839 173.667 0.465058 163.568 20.1131L4.66543 329.272C-5.43336 348.92 1.4054 374.592 19.9403 386.612L142.75 466.257C161.284 478.278 184.497 472.094 194.595 452.446L353.498 143.288C363.597 123.64 356.758 97.9675 338.223 85.9471L297.541 59.5632L287.941 78.2405Z" fill="url(#paint0_linear_1_31)"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M182.988 394L142.54 367.769C133.736 362.059 130.488 349.865 135.285 340.532L294.188 31.3732C298.984 22.0404 310.01 19.1032 318.814 24.8129L441.624 104.458C450.428 110.168 453.676 122.362 448.879 131.695L289.976 440.853C285.179 450.186 274.153 453.123 265.349 447.414L225.116 421.321L215.674 440.101L255.75 466.091C274.284 478.111 297.497 471.928 307.595 452.28L466.498 143.121C476.597 123.473 469.758 97.8011 451.223 85.7807L328.414 6.13558C309.879 -5.88477 286.667 0.298676 276.568 19.9467L117.665 329.105C107.567 348.753 114.405 374.425 132.94 386.446L173.545 412.779L182.988 394Z" fill="url(#paint1_linear_1_31)"/>
+          <defs>
+            <linearGradient id="paint0_linear_1_31" x1="286.843" y1="304.693" x2="61.5802" y2="186.417" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#DB00FF"/>
+              <stop offset="1" stop-color="#001AFF"/>
+            </linearGradient>
+            <linearGradient id="paint1_linear_1_31" x1="387.243" y1="297.706" x2="186.676" y2="194.414" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#00CD08"/>
+              <stop offset="1" stop-color="#BDFF00"/>
+            </linearGradient>
+          </defs>
+        </svg>&nbsp;
+        <span>Linkmarks</span></a>
+    </h1>
+
+    <div class="authBlock">
+      {% if isAuth %}<a class="userName" href="https://hosteria.ru/linkmarks/{{ user }}/">{{ user }}</a> <button class="button" id="exitUserButton" >Выйти</button>
+      {% else %}<button class="button" id="regNewUserButton" >Войти</button>
+      {% endif %}
+    </div>
+
+    {% if isMain %}
+    {% else %}
+      <nav class="linkmarks__nav">
+        <ul id="navigation"></ul>
+        <button id="addNewPageNavigation" title="Добавить новую страницу" class="addNewPage">
+          <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="#0E1117" class="sc-fvFlmW hRHjch"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.25 12.75V18H12.75V12.75H18V11.25H12.75V6H11.25V11.25H6V12.75H11.25Z"></path></svg>
+        </button>
+      </nav>
+    {% endif %}
+
+  </div>
+</header>

@@ -1,0 +1,169 @@
+.authorization{
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(15px);
+  background-color: rgba(149, 149, 149, 0.48);
+  z-index: 200;
+  overflow-x:hidden;
+}
+
+.authorization_form{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  min-height: 100px;
+  min-width: 240px;
+  max-width: 100%;
+  border: 1px solid gray;
+  background: #ffffff;
+  border-radius: var(--main-radius);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  font-weight: 600;
+}
+
+.authorization_form .description{
+  margin-bottom: 14px;
+}
+
+.authorization_form .code{
+  flex: 0 1 auto;
+  grid-template-columns: repeat(4, minmax(0px, 1fr));
+  display: grid;
+  gap: 5px;
+  position: relative;
+}
+
+.authorization_form .cell{
+  align-items: center;
+  border: 2px solid #e0e6ef;
+  border-radius: var(--main-radius);
+  caret-color: transparent;
+  cursor: pointer;
+  display: flex;
+  height: 3rem;
+  justify-content: center;
+  line-height: .5rem;
+  width: 3rem;
+  outline:none
+}
+
+.authorization_form .cell.active{
+  border: 2px solid var(--prime-color);
+}
+
+
+.authorization_form .cell.active:before {
+  background: var(--prime-color);
+  bottom:0.7rem;
+  content:"";
+  height:.125rem;
+  position:absolute;
+  width:1.25rem
+}
+
+.authorization_form .cell.invalid {
+  animation:invalid-cell 125ms ease-in-out;
+  animation-iteration-count:2;
+  border-color: #f53c14;
+}
+
+.authorization_form .error-slot.hidden{
+  display: none;
+}
+
+.authorization_form .error-slot {
+  color: #f53c14;
+}
+
+.authorization_form .error-slot:not(:empty) {
+  margin-top:.5rem
+}
+
+.authorization_form .dont-remember {
+  display:flex;
+  justify-content:center;
+  margin-top:1.5rem
+}
+
+.authorization_form .dont-remember_text {
+
+  cursor:pointer
+}
+
+@keyframes invalid-cell {
+  0% {
+    transform:rotate3d(0,0,0,0deg) translateZ(0)
+  }
+  25% {
+    transform:rotate(-4deg) translate3d(-.125rem,.125rem,0)
+  }
+  75% {
+    transform:rotate(4deg) translate3d(.125rem,-.125rem,0)
+  }
+  to {
+    transform:rotate3d(0,0,0,0deg) translateZ(0)
+  }
+}
+
+.authorization_form .cell.filled {
+  border-color: var(--secondary-color);
+}
+
+.authorization_form>input.hidden {
+  caret-color:transparent;
+  font-size:2rem;
+  height:0;
+  margin:-999px;
+  padding:2rem;
+  pointer-events:none;
+  position:fixed;
+  width:0
+}
+
+
+
+.authorization_form>input.hidden:focus {
+  border:none;
+  outline:none
+}
+
+
+.authorization_form>input.hidden:focus-visible {
+  border:none;
+  outline:none
+}
+
+
+.authorization_form .code.invalid {
+  animation:.25s tremble cubic-bezier(.6,-.28,.735,.045)
+}
+
+@keyframes tremble {
+  0% {
+    transform:translateZ(0)
+  }
+  25% {
+    transform:translate3d(.4rem,0,0)
+  }
+  75% {
+    transform:translate3d(-.4rem,0,0)
+  }
+  to {
+    transform:translateZ(0)
+  }
+}
+
+
+
+
+
+.authorization_form .cell-content {
+  background-color:var(--prime-color);
+  border-radius:50%;
+  height:.75rem;
+  width:.75rem
+}
