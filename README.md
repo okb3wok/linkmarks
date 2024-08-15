@@ -12,10 +12,12 @@ There are important project files (except favicons)
 ```text
 ├─┬ src                  - Source folder
 │ ├── css                - СSS files
+│ ├── twig               - Twig templates
 │ └── js                 - JavaScript files
-├── index.html           - Entry point
+├── jsons                - Links store json
+├── index.php            - Entry point
 ├── api.php              - API
-├── package.json         - info
-└── links.json           - Links store json
+├── config.php           - Yandex app keys
+└── package.json         - info
 ```
 
