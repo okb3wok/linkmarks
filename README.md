@@ -1,6 +1,6 @@
 # 🧐 About
 
-The single page application for store, add, edit linkmarks (bookmarks)
+The single page application for store, add, edit linkmarks (bookmarks) With Yandex ID authentication
 
 ![Screen](https://raw.githubusercontent.com/okb3wok/linkmarks/master/screen.png)
 
